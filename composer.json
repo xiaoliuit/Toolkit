@@ -1,0 +1,29 @@
+{
+  "name": "GameTookit/toolkit",
+  "description": "A toolkit for convenient array operations in PHP",
+  "minimum-stability": "stable",
+
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "edwin",
+      "email": "xiaoliuit@qq.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2|^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GameTookit\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "YourNamespace\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  }
+}
