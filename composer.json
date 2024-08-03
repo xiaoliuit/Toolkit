@@ -1,5 +1,5 @@
 {
-  "name": "GameTookit/toolkit",
+  "name": "xiaoliuit/toolkit",
   "description": "A toolkit for convenient array operations in PHP",
   "minimum-stability": "stable",
 
@@ -20,7 +20,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "YourNamespace\\Tests\\": "tests/"
+      "GameTookit\\Tests\\": "tests/"
     }
   },
   "require-dev": {
